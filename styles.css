@@ -1,0 +1,37 @@
+/* isolated-folder-view/styles.css */
+
+/* Make the isolated folder look like a root folder */
+
+.isolated-header {
+	padding: 8px 12px;
+	border-bottom: 1px solid var(--background-modifier-border);
+	background: var(--background-secondary);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.isolated-title {
+	font-weight: bold;
+	font-size: 1rem;
+	color: var(--text-accent);
+}
+
+.isolated-back-button {
+	background: var(--background-primary-alt);
+	color: var(--text-normal);
+	border: none;
+	padding: 4px 8px;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 0.9em;
+}
+
+.isolated-back-button:hover {
+	background: var(--background-modifier-hover);
+}
+
+/* Hide folder */
+.nav-files-container.isolated-folder-view .nav-folder.hidden-folder {
+	display: none !important;
+}
