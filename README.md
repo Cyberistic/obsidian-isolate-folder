@@ -3,7 +3,7 @@
 A plugin for Obsidian that allows you to focus on a single folder by temporarily hiding the rest of your vault structure. Similar to "Open Folder" in other apps such as VS Code.
 Useful for wefocusing on a single folder, recording/streaming, or if you don't want others to see your notes while in public or presenting.
 
-![Plugin Preview](plugin-preview.png)
+![Plugin Preview](public/plugin-preview.png)
 
 I created this because I give lectures using Obsidian, and I don't want students to see my entire vault.
 
@@ -38,7 +38,7 @@ I created this because I give lectures using Obsidian, and I don't want students
 
 ### Manual Installation
 
-1. Download the latest release
+1. Download the latest release (git clone https://github.com/Cyberistic/obsidian-isolate-folder)
 2. Copy folder to your vault's `.obsidian/plugins` directory
 3. Reload Obsidian
 4. Enable the plugin in Settings → Community Plugins
@@ -55,7 +55,7 @@ This plugin works well enough for me, however its functionality could be improve
 
 -   Menu options: Right clicking the title of the isolated folder, or empty space, should bring the default folder menu options. Right now, right clicking empty space brings "Create Note" and "Create Option" which create in vault root instead of isolated folder.
 
-PRs are welcome! If you'd like to help fix these issues or add new features, please check out the GitHub repository :)
+PRs are welcome! If you'd like to help fix these issues or add new features, please check out the [GitHub repository](https://github.com/Cyberistic/obsidian-isolate-folder) :)
 
 ## License
 
