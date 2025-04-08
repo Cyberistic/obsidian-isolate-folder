@@ -55,6 +55,8 @@ This plugin works well enough for me, however its functionality could be improve
 
 -   Menu options: Right clicking the title of the isolated folder, or empty space, should bring the default folder menu options. Right now, right clicking empty space brings "Create Note" and "Create Option" which create in vault root instead of isolated folder.
 
+-   More Commands: Isolate current folder, etc..
+
 PRs are welcome! If you'd like to help fix these issues or add new features, please check out the [GitHub repository](https://github.com/Cyberistic/obsidian-isolate-folder) :)
 
 ## License
