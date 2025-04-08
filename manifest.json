@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "Isolate-Folder",
+	"name": "Isolate Folder",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "Isolate a folder in the file explorer, hiding all other folders and files. Similar to 'Open Folder' in other apps. Useful for focusing, recording, or if you don't want others to see all your notes.",
+	"author": "Cyberistic",
+	"authorUrl": "https://github.com/Cyberistic",
+	"fundingUrl": "https://github.com/Cyberistic",
 	"isDesktopOnly": false
 }

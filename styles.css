@@ -6,9 +6,7 @@
 	padding: 8px 12px;
 	border-bottom: 1px solid var(--background-modifier-border);
 	background: var(--background-secondary);
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	cursor: context-menu;
 }
 
 .isolated-title {
@@ -17,21 +15,29 @@
 	color: var(--text-accent);
 }
 
+/* Button on bottom to return to default vault */
 .isolated-back-button {
-	background: var(--background-primary-alt);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: var(--background-secondary);
 	color: var(--text-normal);
 	border: none;
-	padding: 4px 8px;
-	border-radius: 6px;
+	padding: 8px;
 	cursor: pointer;
 	font-size: 0.9em;
+	border-top: 1px solid var(--background-modifier-border);
+	text-align: center;
+	z-index: 100;
 }
 
-.isolated-back-button:hover {
-	background: var(--background-modifier-hover);
-}
-
-/* Hide folder */
-.nav-files-container.isolated-folder-view .nav-folder.hidden-folder {
+/* Visibility classes */
+.is-hidden {
 	display: none !important;
+}
+
+/* Add padding to the file explorer to prevent content from hiding behind the button */
+.nav-files-container.isolated-folder-view {
+	padding-bottom: 40px;
 }
