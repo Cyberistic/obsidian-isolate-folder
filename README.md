@@ -1,7 +1,7 @@
 # Isolate Folder
 
 A plugin for Obsidian that allows you to focus on a single folder by temporarily hiding the rest of your vault structure. Similar to "Open Folder" in other apps such as VS Code.
-Useful for wefocusing on a single folder, recording/streaming, or if you don't want others to see your notes while in public or presenting.
+Useful for focusing on a single folder, recording/streaming, or if you don't want others to see your notes while in public or presenting.
 
 ![Plugin Preview](public/plugin-preview.png)
 
