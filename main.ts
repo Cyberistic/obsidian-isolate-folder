@@ -62,7 +62,10 @@ export default class IsolatedFolderView extends Plugin {
             isolatedContainer.className = "isolated-container";
             explorer.appendChild(isolatedContainer);
         } else {
-            isolatedContainer.innerHTML = '';
+            // Clear container safely
+            while (isolatedContainer.firstChild) {
+                isolatedContainer.removeChild(isolatedContainer.firstChild);
+            }
         }
 
         // Find and expand target folder
@@ -91,9 +94,11 @@ export default class IsolatedFolderView extends Plugin {
 
         const header = document.createElement("div");
         header.className = "isolated-header";
-        header.innerHTML = `
-            <div class="isolated-title">${folderName}</div>
-        `;
+
+        const titleDiv = document.createElement("div");
+        titleDiv.className = "isolated-title";
+        titleDiv.textContent = folderName;
+        header.appendChild(titleDiv);
 
         // Add context menu to header
         header.addEventListener("contextmenu", (e: MouseEvent) => {
